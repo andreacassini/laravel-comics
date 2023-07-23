@@ -5,3 +5,27 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+#jumbotron {
+    background-image: url(../images/jumbotron.jpg);
+    height: 500px;
+    background-size: cover;
+
+    .container {
+        position: relative;
+        height: 100%;
+
+        h3 {
+            background-color: #0282F9;
+            color: white;
+            padding: 0.4em 1.5em;
+            position: absolute;
+            bottom: -30px;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 500;
+        }
+    }
+}
+
+#cards {}
