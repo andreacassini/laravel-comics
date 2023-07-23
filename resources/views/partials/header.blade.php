@@ -14,14 +14,13 @@
     <div class="container">
         <div class="row">
             <nav class="col-12 d-flex align-items-center justify-content-between">
-                <img src="{{Vite::asset('resources/images/dc-logo.png')}}" alt="">
+                <a href="{{route('home')}}"><img src="{{Vite::asset('resources/images/dc-logo.png')}}" alt=""></a>
                 <ul class="text-uppercase list-unstyled d-flex aling-items-center" id="header-ul">
                     <li>
                         <a class="nav-link mx-2" href="">characters</a>
                     </li>
                     <li>
-                        <a class="nav-link {{ Route::currentRouteName() === 'home' ? 'color: #0282F9;
-                        border-bottom: 4px solid #0282F9' : ''}} mx-2" href="/">comics</a>
+                        <a class="nav-link {{ Route::currentRouteName() === 'comics' ? 'active' : ''}} mx-2" href="{{route('comics')}}">comics</a>
                     </li>
                     <li>
                         <a class="nav-link mx-2" href="">movies</a>
