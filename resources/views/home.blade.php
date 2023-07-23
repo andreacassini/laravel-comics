@@ -25,7 +25,7 @@
                 <h3>CURRENT SERIES</h3>
             </div>
         </div>
-        <div style="background-color: #1C1C1C; padding: 2em 0">
+        <div style="background-color: #1C1C1C; padding: 2.5em 0">
             <div class="container d-flex flex-column align-items-center">
                 <div class="row align-items-center" style="color: white">
                     @foreach($comics as $comic)
