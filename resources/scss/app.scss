@@ -28,4 +28,91 @@
     }
 }
 
-#cards {}
+#load-more {
+    cursor: pointer;
+    background-color: #0282F9;
+    color: white;
+    padding: 0.5em 3em;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    margin-top: 2em;
+}
+
+.blue-bg {
+    background-color: #0282F9;
+    padding: 2em 0;
+    position: relative;
+    z-index: 3;
+
+    li {
+        list-style: none;
+
+        a {
+            display: flex;
+            align-items: center;
+            font-size: 13px;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: white;
+
+            img {
+                max-width: 50px;
+                margin-right: 1em;
+            }
+        }
+    }
+
+}
+
+#options {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bg {
+    background-image: url(../images/footer-bg.jpg);
+    height: 450px;
+    background-size: cover;
+
+    .container {
+        position: relative;
+        height: 100%;
+
+        div {
+            flex-direction: column;
+            flex-wrap: wrap;
+            height: 100%;
+            align-items: flex-start;
+            margin-right: 40em;
+            padding: 2em 0;
+
+            ul {
+                margin-bottom: 1.5em;
+
+                a {
+                    text-decoration: none;
+
+                    h3 {
+                        font-size: 20px;
+                        font-family: 'Oswald', sans-serif;
+                        margin-bottom: 0.8em;
+                        color: white;
+                    }
+
+                    li {
+                        color: grey;
+                        line-height: 1.5;
+                        list-style: none;
+                    }
+                }
+            }
+        }
+
+        img {
+            position: absolute;
+            right: 0;
+            top: -120px;
+            width: 58%;
+        }
+    }
+}
