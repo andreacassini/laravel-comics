@@ -120,6 +120,31 @@
                 <img src="{{Vite::asset('resources/images/dc-logo-bg.png')}}" alt="logo">
             </div>
         </div>
+        <div id="social-row">
+            <div class="container d-flex">
+                <button id="footer-btn">
+                    SIGN-UP NOW!
+                </button>
+                <div class="d-flex">
+                    <a href="#" style="margin-right: 1.2em;">FOLLOW US</a>
+                    <a href="#">
+                        <img src="{{Vite::asset('resources/images/footer-facebook.png')}}" alt="facebook">
+                    </a>
+                    <a href="#">
+                        <img src="{{Vite::asset('resources/images/footer-twitter.png')}}" alt="twitter">
+                    </a>
+                    <a href="#">
+                        <img src="{{Vite::asset('resources/images/footer-youtube.png')}}" alt="youtube">
+                    </a>
+                    <a href="#">
+                        <img src="{{Vite::asset('resources/images/footer-pinterest.png')}}" alt="pinterest">
+                    </a>
+                    <a href="#">
+                        <img src="{{Vite::asset('resources/images/footer-periscope.png')}}" alt="periscope">
+                    </a>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 
