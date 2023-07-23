@@ -47,8 +47,8 @@
                         <a class="nav-link  mx-2" href="">shop <span style="color: #0282F9; font-size: 10px ">&#9660;</span></a>
                     </li>
                 </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <form class=" aling-items-center" role="search">
+                    <input type="search" placeholder="Search" aria-label="Search " id="search">
                 </form>
             </nav>
         </div>

@@ -29,7 +29,7 @@
             <div class="container d-flex flex-column align-items-center">
                 <div class="row" style="color: white">
                     @foreach($comics as $comic)
-                    <div class="col-6 col-md-4 col-lg-3 col-xl-2 py-3">
+                    <div class="col-6 col-md-4 col-lg-3 col-xxl-2 py-3">
                         {{-- img --}}
                         <img src="{{$comic['thumb']}}" alt="comic" id='cards'>
                         {{-- title --}}
