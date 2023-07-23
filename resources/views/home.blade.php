@@ -81,13 +81,13 @@
                 <div class="d-flex">
                     <ul>
                         <a href="#"><h3>DC COMICS</h3></a>
-                            <a href=""><li>Characters</li></a>
-                            <a href=""><li>Comics</li></a>
-                            <a href=""><li>Movies</li></a>
-                            <a href=""><li>Tv</li></a>
-                            <a href=""><li>Games</li></a>
-                            <a href=""><li>Videos</li></a>
-                            <a href=""><li>News</li></a>
+                        <a href=""><li>Characters</li></a>
+                        <a href=""><li>Comics</li></a>
+                        <a href=""><li>Movies</li></a>
+                        <a href=""><li>Tv</li></a>
+                        <a href=""><li>Games</li></a>
+                        <a href=""><li>Videos</li></a>
+                        <a href=""><li>News</li></a>
                     </ul>
                     <ul>
                         <a href=""><h3>SHOP</h3></a>
@@ -111,10 +111,10 @@
                     <ul>
                         <a href=""><h3>SITES</h3></a>
                         <a href=""><li>DC</li></a>
-                            <a href=""><li>MAD Magazine</li></a>
-                            <a href=""><li>DC Kids</li></a>
-                            <a href=""><li>DC Universe</li></a>
-                            <a href=""><li>DC Power Visa</li></a>
+                        <a href=""><li>MAD Magazine</li></a>
+                        <a href=""><li>DC Kids</li></a>
+                        <a href=""><li>DC Universe</li></a>
+                        <a href=""><li>DC Power Visa</li></a>
                     </ul>
                 </div>
                 <img src="{{Vite::asset('resources/images/dc-logo-bg.png')}}" alt="logo">
