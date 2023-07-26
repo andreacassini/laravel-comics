@@ -19,12 +19,12 @@ Route::get('/', function () {
 
 Route::get('/comics', function () {
     $comics = config('comics');
-    return view('comics', compact('comics'));
+    return view('comics.index', compact('comics'));
 })->name('comics');
 
 Route::get('/comics/{comic}', function ($id) {
     $comics = config('comics');
 
     $comic = $comics[$id];
-    return view('');
-});
+    return view('comics.show', compact('comic'));
+})->name('comics.show');

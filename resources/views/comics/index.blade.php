@@ -28,13 +28,15 @@
         <div style="background-color: #1C1C1C; padding: 2.5em 0">
             <div class="container d-flex flex-column align-items-center">
                 <div class="row" style="color: white">
-                    @foreach($comics as $comic)
-                    <div class="col-6 col-md-4 col-lg-3 col-xxl-2 py-3">
-                        {{-- img --}}
-                        <img src="{{$comic['thumb']}}" alt="comic" id='cards'>
-                        {{-- title --}}
-                        <h6 class="mt-3 text-uppercase">{{$comic['title']}}</h6>
-                    </div>
+                    @foreach($comics as $id => $comic)
+                        <div class="col-6 col-md-4 col-lg-3 col-xxl-2 py-3">
+                            <a href="{{route('comics.show', $id)}}">
+                            {{-- img --}}
+                            <img src="{{$comic['thumb']}}" alt="comic" id='cards'>
+                            {{-- title --}}
+                            <h6 class="mt-3 text-uppercase">{{$comic['title']}}</h6>
+                            </a>
+                        </div>
                     @endforeach
                 </div>
                 <button class="col-2" id="load-more">LOAD MORE</button>
