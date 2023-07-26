@@ -19,7 +19,7 @@
                 </div>
                 <div class="row justify-content-between">
                     {{-- PRIMA COLONNA --}}
-                    <div class="col-6">
+                    <div class="col m-3">
                         <h3>Talent</h3>
                         <hr>
                         <div class="row">
@@ -50,43 +50,45 @@
                             </div>
                         </div>
                         <hr>
-                        {{-- SECONDA COLONNA --}}
-                        <div class="col-6">
-                            <h3>Specs</h3>
-                            <hr>
-                            <div class="row">
-                                <div class="col-4">
-                                    <p><strong>
-                                        Series: 
-                                    </strong>
-                                    </p>
-                                </div>
-                                <div class="col-8 text-uppercase">
-                                    {{$comic['series']}}
-                                </div>
+                    </div>
+                    {{-- SECONDA COLONNA --}}
+                    <div class="col m-3">
+                        <h3>Specs</h3>
+                        <hr>
+                        <div class="row">
+                            <div class="col-4">
+                                <p><strong>
+                                    Series: 
+                                </strong>
+                                </p>
                             </div>
-                            <div class="row">
-                                <div class="col-4">
-                                    <p><strong>
-                                        U.S. Price: 
-                                    </strong>
-                                    </p>
-                                </div>
-                                <div class="col-8">
-                                    {{$comic['price']}}
-                                </div>
+                            <div class="col-8 text-uppercase">
+                                {{$comic['series']}}
                             </div>
-                            <div class="row">
-                                <div class="col-4">
-                                    <p><strong>
-                                        Series: 
-                                    </strong>
-                                    </p>
-                                </div>
-                                <div class="col-8">
-                                    {{$comic['sale_date']}}
-                                </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4">
+                                <p><strong>
+                                    U.S. Price: 
+                                </strong>
+                                </p>
                             </div>
+                            <div class="col-8">
+                                {{$comic['price']}}
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4">
+                                <p><strong>
+                                    Series: 
+                                </strong>
+                                </p>
+                            </div>
+                            <div class="col-8">
+                                {{$comic['sale_date']}}
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
