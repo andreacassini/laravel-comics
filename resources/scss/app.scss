@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 #header-blue {
     background-color: #0282F9;
     text-align: end;
@@ -200,4 +201,25 @@
     text-align: end;
     font-weight: bol;
     padding: 0.2em 0;
+}
+
+#cover {
+    top: 400px;
+    max-width: 250px;
+    z-index: 100;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+#price {
+    background-color: #55BA59;
+    color: white;
+
+    .row {
+        .col-8 {
+            border-right: 1px solid black;
+        }
+    }
 }
